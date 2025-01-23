@@ -47,12 +47,12 @@ The dataset enables the identification of anomalies through time-series trends, 
 - An anomaly is flagged if at least **two out of three models** agree.
 ### Temporal Models (ARIMA and LSTM):
 
--• ARIMA parameters (5,1,2) were set based on data seasonality and trend
+• ARIMA parameters (5,1,2) were set based on data seasonality and trend
 decomposition to capture transaction volume patterns accurately.
--• LSTM epochs and batch size were optimized to balance prediction accuracy
+• LSTM epochs and batch size were optimized to balance prediction accuracy
 with computational efficiency.
 
--Fine-tuning focused on adjusting contamination levels, neighbourhood size, and model
+Fine-tuning focused on adjusting contamination levels, neighbourhood size, and model
 parameters for accuracy, ensuring reliable detection of suspicious trading activities.
 
 ---
